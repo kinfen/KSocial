@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18204C38178828ED00E7A402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18204C36178828ED00E7A402 /* InfoPlist.strings */; };
+		18204C4317882C9300E7A402 /* KSocialManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18204C4217882C9300E7A402 /* KSocialManager.mm */; };
+		18204C7E1788301300E7A402 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18204C7C1788301300E7A402 /* FacebookSDKResources.bundle */; };
+		18204C7F1788301300E7A402 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18204C7D1788301300E7A402 /* FBUserSettingsViewResources.bundle */; };
+		18204C81178830B200E7A402 /* KSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204C4117882C9300E7A402 /* KSocialManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18204CBC17883CB000E7A402 /* gamekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204C4017882C9300E7A402 /* gamekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18204CE317887ACA00E7A402 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C7517882F2C00E7A402 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18204CE417887ADB00E7A402 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C6D17882EF000E7A402 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18204CE517887AEB00E7A402 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C7117882F1500E7A402 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18204CE817887B3800E7A402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C7A17882F4500E7A402 /* CoreGraphics.framework */; };
+		18204CE917887B4D00E7A402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C1E1788282100E7A402 /* Foundation.framework */; };
+		18204CEA17887B5E00E7A402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C7717882F3400E7A402 /* UIKit.framework */; };
+		18204CEB17887B7300E7A402 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C6F17882EF500E7A402 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18204CEC17887B7A00E7A402 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18204C7317882F2000E7A402 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18204CEF17891E1A00E7A402 /* KSocialObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18204CED17891E1900E7A402 /* KSocialObject.mm */; };
+		18204CF017891E1A00E7A402 /* KSocialObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204CEE17891E1A00E7A402 /* KSocialObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18204CF31789206E00E7A402 /* KNSSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204CF11789206D00E7A402 /* KNSSocialManager.h */; };
+		18204CF41789206E00E7A402 /* KNSSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18204CF21789206D00E7A402 /* KNSSocialManager.m */; };
+		18204CF81789229A00E7A402 /* IKSocialObjectAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18204CF61789229A00E7A402 /* IKSocialObjectAction.cpp */; };
+		18204CF91789229A00E7A402 /* IKSocialObjectAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204CF71789229A00E7A402 /* IKSocialObjectAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18204CFC1789260A00E7A402 /* IKSocialDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18204CFA1789260A00E7A402 /* IKSocialDelegate.cpp */; };
+		18204CFD1789260A00E7A402 /* IKSocialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204CFB1789260A00E7A402 /* IKSocialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18204D00178939BC00E7A402 /* ksocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 18204CFF178939BC00E7A402 /* ksocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18369D85178A88EC009275F3 /* KSocialUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18369D83178A88EC009275F3 /* KSocialUser.mm */; };
+		18369D86178A88EC009275F3 /* KSocialUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 18369D84178A88EC009275F3 /* KSocialUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B97B72178AFFA800D04258 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B97B71178AFFA800D04258 /* FacebookSDK.framework */; };
+		18B97B75178B041A00D04258 /* KNSFileFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B97B73178B041A00D04258 /* KNSFileFetcher.h */; };
+		18B97B76178B041A00D04258 /* KNSFileFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B97B74178B041A00D04258 /* KNSFileFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18204C1E1788282100E7A402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18204C30178828ED00E7A402 /* KSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18204C31178828ED00E7A402 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		18204C35178828ED00E7A402 /* KSocial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSocial-Info.plist"; sourceTree = "<group>"; };
+		18204C37178828ED00E7A402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18204C39178828ED00E7A402 /* KSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSocial-Prefix.pch"; sourceTree = "<group>"; };
+		18204C4017882C9300E7A402 /* gamekit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamekit.h; sourceTree = "<group>"; };
+		18204C4117882C9300E7A402 /* KSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSocialManager.h; sourceTree = "<group>"; };
+		18204C4217882C9300E7A402 /* KSocialManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KSocialManager.mm; sourceTree = "<group>"; };
+		18204C6B17882EDA00E7A402 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		18204C6D17882EF000E7A402 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		18204C6F17882EF500E7A402 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		18204C7117882F1500E7A402 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		18204C7317882F2000E7A402 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18204C7517882F2C00E7A402 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		18204C7717882F3400E7A402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18204C7A17882F4500E7A402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18204C7C1788301300E7A402 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		18204C7D1788301300E7A402 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		18204CED17891E1900E7A402 /* KSocialObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KSocialObject.mm; sourceTree = "<group>"; };
+		18204CEE17891E1A00E7A402 /* KSocialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSocialObject.h; sourceTree = "<group>"; };
+		18204CF11789206D00E7A402 /* KNSSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNSSocialManager.h; path = ios/KNSSocialManager.h; sourceTree = "<group>"; };
+		18204CF21789206D00E7A402 /* KNSSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNSSocialManager.m; path = ios/KNSSocialManager.m; sourceTree = "<group>"; };
+		18204CF61789229A00E7A402 /* IKSocialObjectAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IKSocialObjectAction.cpp; sourceTree = "<group>"; };
+		18204CF71789229A00E7A402 /* IKSocialObjectAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSocialObjectAction.h; sourceTree = "<group>"; };
+		18204CFA1789260A00E7A402 /* IKSocialDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IKSocialDelegate.cpp; sourceTree = "<group>"; };
+		18204CFB1789260A00E7A402 /* IKSocialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSocialDelegate.h; sourceTree = "<group>"; };
+		18204CFF178939BC00E7A402 /* ksocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksocial.h; sourceTree = "<group>"; };
+		18369D83178A88EC009275F3 /* KSocialUser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KSocialUser.mm; sourceTree = "<group>"; };
+		18369D84178A88EC009275F3 /* KSocialUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSocialUser.h; sourceTree = "<group>"; };
+		18B97B71178AFFA800D04258 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		18B97B73178B041A00D04258 /* KNSFileFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNSFileFetcher.h; path = ios/KNSFileFetcher.h; sourceTree = "<group>"; };
+		18B97B74178B041A00D04258 /* KNSFileFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNSFileFetcher.m; path = ios/KNSFileFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18204C2D178828ED00E7A402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18204CEC17887B7A00E7A402 /* Security.framework in Frameworks */,
+				18204CEB17887B7300E7A402 /* Social.framework in Frameworks */,
+				18204CE517887AEB00E7A402 /* libsqlite3.dylib in Frameworks */,
+				18204CE417887ADB00E7A402 /* AdSupport.framework in Frameworks */,
+				18204CE317887ACA00E7A402 /* Accounts.framework in Frameworks */,
+				18204CEA17887B5E00E7A402 /* UIKit.framework in Frameworks */,
+				18204CE917887B4D00E7A402 /* Foundation.framework in Frameworks */,
+				18204CE817887B3800E7A402 /* CoreGraphics.framework in Frameworks */,
+				18B97B72178AFFA800D04258 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18204C121788282100E7A402 = {
+			isa = PBXGroup;
+			children = (
+				18B97B71178AFFA800D04258 /* FacebookSDK.framework */,
+				18204C33178828ED00E7A402 /* KSocial */,
+				18204C1D1788282100E7A402 /* Frameworks */,
+				18204C1C1788282100E7A402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18204C1C1788282100E7A402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18204C30178828ED00E7A402 /* KSocial.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18204C1D1788282100E7A402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18204C7C1788301300E7A402 /* FacebookSDKResources.bundle */,
+				18204C7D1788301300E7A402 /* FBUserSettingsViewResources.bundle */,
+				18204C7A17882F4500E7A402 /* CoreGraphics.framework */,
+				18204C7717882F3400E7A402 /* UIKit.framework */,
+				18204C7517882F2C00E7A402 /* Accounts.framework */,
+				18204C7317882F2000E7A402 /* Security.framework */,
+				18204C7117882F1500E7A402 /* libsqlite3.dylib */,
+				18204C6F17882EF500E7A402 /* Social.framework */,
+				18204C6D17882EF000E7A402 /* AdSupport.framework */,
+				18204C6B17882EDA00E7A402 /* FacebookSDK.framework */,
+				18204C1E1788282100E7A402 /* Foundation.framework */,
+				18204C31178828ED00E7A402 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18204C33178828ED00E7A402 /* KSocial */ = {
+			isa = PBXGroup;
+			children = (
+				18204CFF178939BC00E7A402 /* ksocial.h */,
+				18204C4017882C9300E7A402 /* gamekit.h */,
+				18204C4117882C9300E7A402 /* KSocialManager.h */,
+				18204C4217882C9300E7A402 /* KSocialManager.mm */,
+				18204CED17891E1900E7A402 /* KSocialObject.mm */,
+				18204CEE17891E1A00E7A402 /* KSocialObject.h */,
+				18369D83178A88EC009275F3 /* KSocialUser.mm */,
+				18369D84178A88EC009275F3 /* KSocialUser.h */,
+				18204CFA1789260A00E7A402 /* IKSocialDelegate.cpp */,
+				18204CFB1789260A00E7A402 /* IKSocialDelegate.h */,
+				18204CF61789229A00E7A402 /* IKSocialObjectAction.cpp */,
+				18204CF71789229A00E7A402 /* IKSocialObjectAction.h */,
+				18204CF51789207700E7A402 /* ios */,
+				18204C34178828ED00E7A402 /* Supporting Files */,
+			);
+			path = KSocial;
+			sourceTree = "<group>";
+		};
+		18204C34178828ED00E7A402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18204C35178828ED00E7A402 /* KSocial-Info.plist */,
+				18204C36178828ED00E7A402 /* InfoPlist.strings */,
+				18204C39178828ED00E7A402 /* KSocial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18204CF51789207700E7A402 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				18204CF11789206D00E7A402 /* KNSSocialManager.h */,
+				18204CF21789206D00E7A402 /* KNSSocialManager.m */,
+				18B97B73178B041A00D04258 /* KNSFileFetcher.h */,
+				18B97B74178B041A00D04258 /* KNSFileFetcher.m */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18204C801788307300E7A402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18204D00178939BC00E7A402 /* ksocial.h in Headers */,
+				18204C81178830B200E7A402 /* KSocialManager.h in Headers */,
+				18204CBC17883CB000E7A402 /* gamekit.h in Headers */,
+				18204CF017891E1A00E7A402 /* KSocialObject.h in Headers */,
+				18204CF91789229A00E7A402 /* IKSocialObjectAction.h in Headers */,
+				18204CFD1789260A00E7A402 /* IKSocialDelegate.h in Headers */,
+				18369D86178A88EC009275F3 /* KSocialUser.h in Headers */,
+				18204CF31789206E00E7A402 /* KNSSocialManager.h in Headers */,
+				18B97B75178B041A00D04258 /* KNSFileFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18204C2F178828ED00E7A402 /* KSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18204C3A178828ED00E7A402 /* Build configuration list for PBXNativeTarget "KSocial" */;
+			buildPhases = (
+				18204C2C178828ED00E7A402 /* Sources */,
+				18204C2D178828ED00E7A402 /* Frameworks */,
+				18204C2E178828ED00E7A402 /* Resources */,
+				18204C801788307300E7A402 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSocial;
+			productName = KSocial;
+			productReference = 18204C30178828ED00E7A402 /* KSocial.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18204C131788282100E7A402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KStudio;
+			};
+			buildConfigurationList = 18204C161788282100E7A402 /* Build configuration list for PBXProject "KSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18204C121788282100E7A402;
+			productRefGroup = 18204C1C1788282100E7A402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18204C2F178828ED00E7A402 /* KSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18204C2E178828ED00E7A402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18204C38178828ED00E7A402 /* InfoPlist.strings in Resources */,
+				18204C7E1788301300E7A402 /* FacebookSDKResources.bundle in Resources */,
+				18204C7F1788301300E7A402 /* FBUserSettingsViewResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18204C2C178828ED00E7A402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18204C4317882C9300E7A402 /* KSocialManager.mm in Sources */,
+				18204CEF17891E1A00E7A402 /* KSocialObject.mm in Sources */,
+				18204CF41789206E00E7A402 /* KNSSocialManager.m in Sources */,
+				18204CF81789229A00E7A402 /* IKSocialObjectAction.cpp in Sources */,
+				18204CFC1789260A00E7A402 /* IKSocialDelegate.cpp in Sources */,
+				18369D85178A88EC009275F3 /* KSocialUser.mm in Sources */,
+				18B97B76178B041A00D04258 /* KNSFileFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18204C36178828ED00E7A402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18204C37178828ED00E7A402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18204C271788282100E7A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18204C281788282100E7A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18204C3B178828ED00E7A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/../FacebookSDK\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSocial/KSocial-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INFOPLIST_FILE = "KSocial/KSocial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		18204C3C178828ED00E7A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/../FacebookSDK\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSocial/KSocial-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INFOPLIST_FILE = "KSocial/KSocial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18204C161788282100E7A402 /* Build configuration list for PBXProject "KSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18204C271788282100E7A402 /* Debug */,
+				18204C281788282100E7A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18204C3A178828ED00E7A402 /* Build configuration list for PBXNativeTarget "KSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18204C3B178828ED00E7A402 /* Debug */,
+				18204C3C178828ED00E7A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18204C131788282100E7A402 /* Project object */;
+}

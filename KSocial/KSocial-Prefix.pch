@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KSocial' target in the 'KSocial' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
